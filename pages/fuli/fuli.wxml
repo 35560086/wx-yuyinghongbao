@@ -1,0 +1,113 @@
+<!--pages/fuli/fuli.wxml-->
+<view class="container">
+  <view class='con'>
+    <view class='nav'>
+      <view class="nav_box" >
+        <view bindtap='ChangeTab' data-id="1"
+              style="{{userStyle==1?'border-bottom:2px solid #e73b58':''}}">
+          我是消费者
+        </view>
+        <view bindtap='ChangeTab' data-id="2"
+              style="{{userStyle==2?'border-bottom:2px solid #e73b58':''}}">
+          我是商家
+        </view>       
+      </view>
+    </view>
+    <view class='content_box' style="{{userStyle==1?'display:block':'display:none'}}">
+      <block>
+        <view class='content_son'>
+          <image src=''mode="widthFix" class='fuliPic'></image>
+          <view class='bottomBar'>
+            <image src='../image/mine-2.png' mode='widthFix' class='tianmao fl'></image>
+            <view class='fl'> 支付宝</view>
+            <view class='fr'>抢 <text class='fontSize'>20004</text>元
+             <image src='../image/fuli-hongbao.png' mode='widthFix'
+                    class='fr' style='width:30rpx;margin:18rpx;'></image>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <!--我是商家  -->
+    <view class='shopContent' style="{{userStyle==2?'display:block':'display:none'}}">
+      <view class='shopNameInfo'>
+        <view class='shopNameHeader'>
+          <image src='{{userInfo.avatarUrl}}' mode="widthFix" class='header fl marginTop25'></image>
+          <view class='fl userNick'>{{userInfo.nickName}}</view>
+        </view>
+
+        <view class='shopDetail'>
+          <view class='shopDetail_detail'>
+            <view class='shopHanzi'>账户余额</view>
+            <view class='shopHanzi shopColor'>￥0.00</view>
+          </view>
+           <view class='shopDetail_detail'>
+            <view class='shopHanzi'>广告位</view>
+            <view class='shopHanzi shopColor'>￥0.00</view>
+          </view>
+           <view class='shopDetail_detail'>
+            <view class='shopHanzi'>发出的红包</view>
+            <view class='shopHanzi shopColor'>￥0.00</view>
+          </view>
+           <view class='shopDetail_detail1'>
+            <view class='shopHanzi'>收到的红包</view>
+            <view class='shopHanzi shopColor'>￥0.00</view>
+          </view>
+        </view>
+        <navigator url='./houbao/houbao'  class='shopBtn'>一键发红包</navigator> 
+      </view>
+
+
+      <view class='shopDetail1'>
+        <view class='shopDetail_Box'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fuli-1.png'></image>
+          <view class='fl'>我的广告位</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+        <view class='shopDetail_Box'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fu-2.png'></image>
+          <view class='fl'>我赞助的广告位</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+        <view class='shopDetail_Box'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fuli-3.png'></image>
+          <view class='fl'>我的红包</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+        <view class='shopDetail_Box'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fuli-4.png'></image>
+          <view class='fl'>我的订阅</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+        <view class='shopDetail_Box1'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fuli-5.png'></image>
+          <view class='fl'>提现</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+      </view>
+
+      <view class='shopDetail1'>
+        <view class='shopDetail_Box'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fuli-6.png'></image>
+          <view class='fl'>我的订阅</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+        <view class='shopDetail_Box1'>
+          <image class='shopDetail_pic fl' mode='widthFix' src='../image/fuli-8.png'></image>
+          <view class='fl'>提现</view>
+          <image class='rightLine fr' mode='widthFix' src='../image/arrow.png'></image>
+        </view>
+      </view>
+
+    </view>
+
+
+
+
+
+
+
+
+  </view>
+</view>

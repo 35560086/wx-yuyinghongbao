@@ -1,0 +1,131 @@
+/* pages/fuli/fuli.wxss */
+Page{
+  background: #f3f5fa;
+}
+.nav_box{
+  width:750rpx;
+  height:93rpx;
+  display:flex;
+  justify-content: space-around;
+  line-height:93rpx;
+  background:#fff;
+}
+.content_box{
+  width:700rpx;
+  margin:0 auto;
+
+}
+.content_son{
+  width:700rpx;
+  overflow: hidden;
+  background:#fff;
+}
+.fuliPic{
+  width:700rpx;
+  display: block;
+  min-height: 437rpx;
+}
+.bottomBar{
+  width:700rpx;
+  height:68rpx;
+  line-height: 68rpx;
+}
+.tianmao{
+  width:58rpx;
+  border-radius:50%;
+ margin:5rpx 20rpx;
+}
+.fontSize{
+  font-size:32rpx;
+  margin-right:20rpx;
+}
+.shopNameInfo{
+  width:700rpx;
+  height:400rpx;
+  background:#fff;
+  margin-top:15rpx;
+  padding:0 25rpx;
+
+}
+.shopNameHeader{
+  width:700rpx;
+  height:164rpx;
+  line-height: 164rpx;
+
+}
+.userNick{
+  margin-left:25rpx;
+}
+.shopDetail{
+  width:700rpx;
+  height:120rpx;
+  border-bottom:1rpx solid #ccc;
+}
+.shopDetail_detail{
+  width:173rpx;
+  height:100rpx;
+  border-right:1rpx solid #ccc;
+  margin-top:10rpx;
+  text-align: center;
+  float:left;
+
+}
+.shopDetail_detail1{
+  width:173rpx;
+  height:100rpx;
+ 
+  margin-top:10rpx;
+  text-align: center;
+  float:left;
+
+}
+.shopHanzi{
+  font-size:24rpx;
+  color:#999;
+  height:50rpx;
+  line-height:50rpx;
+
+}
+.shopColor{
+  color:#3e3e3e;
+
+}
+.shopBtn{
+  width:328rpx;
+  height:72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  margin:25rpx auto;
+  background: #e73b58;
+  color:#fff;
+  border-radius:36rpx;
+}
+.shopDetail_Box{
+  width:700rpx;
+  height:84rpx;
+  line-height: 84rpx;
+  border-bottom:1rpx solid #ccc;
+ 
+}
+.shopDetail_Box1{
+  width:700rpx;
+  height:84rpx;
+  line-height: 84rpx;
+ 
+}
+.shopDetail_pic{
+  width:40rpx;
+  margin-top:20rpx;
+  margin-right:25rpx;
+}
+.rightLine{
+  width:18rpx;
+  margin-top:25rpx;
+  margin-right:15rpx;
+}
+.shopDetail1{
+  width:700rpx;
+  background:#fff;
+  margin-top:15rpx;
+  padding:0 25rpx;
+}

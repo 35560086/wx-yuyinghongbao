@@ -1,0 +1,92 @@
+/* pages/fuli/houbao/houbao.wxss */
+Page{
+  background:#f3f5fa;
+}
+.inputBox{
+  width:690rpx;
+  height:84rpx;
+  background: #fff;
+  margin:44rpx auto 0rpx;
+  line-height: 84rpx;
+  border-radius:15rpx;
+}
+.inputKouling{
+  width:500rpx;
+  margin-right: 15rpx;
+  height:84rpx;
+  text-align: right;
+}
+.inputname{
+  width:150rpx;
+  margin-left:15rpx;
+
+}
+.hanzi{
+  width:40rpx;
+  height:84rpx;
+  line-height: 84rpx;
+
+}
+.inputKouling1{
+  width:450rpx;
+  margin-right: 15rpx;
+  height:84rpx;
+  text-align: right;
+}
+.selectBox{
+  width:690rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  margin:0 auto;
+}
+.selectMoney{
+  width:120rpx;
+  height:60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border:1rpx solid #ccc;
+  margin-top:20rpx;
+  border-radius:15rpx;
+  background: #fff;
+}
+
+.yue{
+  width:750rpx;
+  text-align: center;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#67789c;
+}
+.setBtn{
+  text-align:center;
+  height:84rpx;
+  line-height: 84rpx;
+  width:642rpx;
+  background:#e73b58;
+  border-radius:15rpx;
+  margin:0 auto;
+  color:#fff;
+  font-size:32rpx;
+}
+.erweima{
+  width:225rpx;
+  height:225rpx;
+  margin: 45rpx auto 25rpx;
+
+}
+.shibie{
+  width:750rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color:#999;
+}
+.on{
+  background: #e73b58;
+  color:#fff;
+}
+.lianjie{
+  
+}

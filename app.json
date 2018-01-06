@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/classify/classify",
+    "pages/index/Share/ShareHotMoney",
+    "pages/index/Share/share",
+    "pages/index/mRecord/myRecord",
+    "pages/fuli/fuli",
+    "pages/fuli/houbao/houbao"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e73b58",
+    "navigationBarTitleText": "节日福利社-语音口令",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#fe2f5b",
+    "list": [
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/index/index",
+        "text": "我的记录"
+      },
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/classify/classify",
+        "text": "余额提现"
+      },
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/fuli/fuli",
+        "text": "福利社"
+      },
+      {
+        "iconPath": "",
+        "selectedIconPath": "",
+        "pagePath": "pages/mine/mine",
+        "text": "我"
+      }
+    ]
+  }
+}

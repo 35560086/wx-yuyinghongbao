@@ -1,0 +1,12 @@
+{
+  "name": "VoiveHotMoney",
+  "version": "1.0.0",
+  "description": "语音红包小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

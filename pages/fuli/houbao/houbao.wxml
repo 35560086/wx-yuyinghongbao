@@ -1,0 +1,46 @@
+<!--pages/fuli/houbao/houbao.wxml-->
+<view class='container'>
+  <view class='con'>
+    <view class='inputBox'>
+      <view class='fl inputname'>语音口令</view>
+      <input type='text' placeholder='我爱你' class='fr inputKouling' ></input>
+    </view>
+
+     <view class='inputBox'>
+      <view class='fl inputname'>奖励金额</view>
+      <view class='fr hanzi'>元</view>
+      <input type='text' placeholder='' class='fr inputKouling1' 
+              value='{{currentMoney}}' bindfocus='clearInput'></input> 
+    </view>
+
+    <view class='selectBox'>
+      <block wx:for="{{Money}}">
+        <view class="selectMoney {{currentMoney==item?'on':''}}"
+              bindtap='setMoney' data-data="{{item}}">{{item}}元</view>
+      </block>
+    </view>
+
+    <view class='inputBox' style="margin-top:20rpx;">
+      <view class='fl inputname'>奖励个数</view>
+      <view class='fr hanzi'>个</view>
+      <input type='text' placeholder='填写个数' class='fr inputKouling1' ></input> 
+    </view>
+     
+      <view class='yue'>优先使用余额0,0</view>
+
+      <view class='setBtn'>生成语音红包</view>
+
+      <view class='erweima'>
+        <image src='{{userInfo.avatarUrl}}' mode='widthFix' style='width:225rpx;'></image>
+      </view>
+
+      <view class='shibie'>长按识别</view>
+      <view class='shibie'>随时关注红包动态</view>
+
+      <view class='yue'>
+        <text>查看记录</text> 丨 <text>常见问题</text>
+      </view>
+
+
+  </view>
+</view>
